@@ -1,0 +1,1 @@
+s = input("string")b = input("substring")c= b.find(s)print(c)if b.find(s):    print('ok')else:    print('nan')

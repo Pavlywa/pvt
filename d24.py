@@ -1,0 +1,1 @@
+import mathr = float(input("print number"))print("square circle:%2f"%(math.pi*r**2))#!! Be a little bit tidy with your code. :-) Use spaces for visual indents.#!! put `import` in the beginning of the file

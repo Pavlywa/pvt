@@ -1,0 +1,1 @@
+l=[]while 1:    n = input('число')    l.append(n)    if n== '':        breaknum = input('число поиска')print('число встретилось',l.count(num),'раз(a)')

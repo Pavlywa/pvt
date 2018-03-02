@@ -1,0 +1,1 @@
+name=input('Enter your name')print('Hello World!Hello',name,'!')#!! And what about a redundant space in the end of result string? :-)
