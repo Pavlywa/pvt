@@ -1,0 +1,1 @@
+f = int(input("enter a number"))if(f%2)==0:    print('even')else:    print('not even')

@@ -1,0 +1,1 @@
+n = int(input('количество строк='))c=max(n.split(), key=len)a = []for i in range(n):    print(i + 1, end='-я: ')    a.append(input())ind = 0for i in range(1, n):    if len(a[i]) > len(a[ind]):        ind = ifor i in range(n):    if len(a[i]) == len(a[ind]):        print(i + 1,'строка')

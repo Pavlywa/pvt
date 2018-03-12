@@ -1,0 +1,1 @@
+v = int(input('Dear\n 1 Mr. \n 2 Mrs. \n 3 Miss  \n 4 Ms. \n '))if v == 1:    print('male=m')else:    print('male=f')

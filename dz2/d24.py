@@ -1,0 +1,1 @@
+import mathr = float(input("print number of r"))print("square circle",(math.pi*r**2))

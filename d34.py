@@ -1,1 +1,0 @@
-v = int(input('Dear\n 1 Mr. \n 2 Mrs. \n 3 Miss  \n 4 Ms. \n 5 other \n'))if v == 1 and 2:    print('male=m')elif v == 3 and 4:    print('male=f')else:    print('male= nan')

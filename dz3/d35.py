@@ -1,0 +1,1 @@
+s = input(str("string"))b = input(str("substring"))try:    if s.index(b):        print('ok')except ValueError:    print('nan')

@@ -1,0 +1,1 @@
+a = int ( input("first_number"))b = int ( input("secont_number"))c = int ( input("third_number"))mi = min(a,b,c)ma = max(a,b,c)print ('sum of min and max is',mi+ma)

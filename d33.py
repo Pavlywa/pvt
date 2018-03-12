@@ -1,1 +1,0 @@
-t = 'hello!antony!have!a!good!day!'l = t.upper().split('!')l = l[:len(l)-1]v = sorted(l)print('\n'.join(v))

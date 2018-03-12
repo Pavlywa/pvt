@@ -1,1 +1,0 @@
-t = 'hello!antony!have!a!good!day!'#t.split(sep='!'[maxsplit=6])l=t.upper().split('!')l=l[:len(l)-1]print(l)
