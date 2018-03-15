@@ -1,0 +1,1 @@
+f = open('text.txt')stroki=0for i in f:    stroki += 1    slova=0    metka=0    for j in i:        if j != ' ' and metka == 0:            slova += 1            metka = True        elif j == ' ':            metka = False    print(stroki,'stroka',len(i), 'simvolov', slova, 'slov')print('vsego',stroki,'strok')

@@ -1,0 +1,1 @@
+inp = input('input words:')spl = inp.split()long = list(map(lambda x: len(x), spl))norepeat = list(filter(lambda ind: long.count(ind)<2,long))result = spl[long.index(max(norepeat))]print(result)

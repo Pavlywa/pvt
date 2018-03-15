@@ -1,0 +1,1 @@
+f=open('text.txt', 'a')while True:    enter=input('enter words:')    print(enter, file=f)    if enter=='':        f.close()        break'''for item in os.listdir():    if os.path.isdir(item):        print(file=f)'''
