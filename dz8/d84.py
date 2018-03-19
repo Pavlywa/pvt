@@ -1,7 +1,7 @@
 import os
 
-directory=input('enter directory')
+directory=input('enter directory:')
 
-d = os.listdir(directory)
+d=os.listdir(directory)
 
-print (d)
+print(d)
