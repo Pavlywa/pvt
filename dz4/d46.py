@@ -1,0 +1,1 @@
+'''Преобразовать массив, чтобы сначала шли все отрицательные, а потом положительные (0 положительный)'''list=[]while True:    number = input('число:')    if number== '':        break    number = int(number)    list.append(number)    list.sort()for nol in list:    if nol==0:        list.remove(nol)        list.append(0)print(list)

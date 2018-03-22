@@ -1,0 +1,1 @@
+'''удалить из списка '0' и заполнить справа на '-1' '''list=[]while True:    number = input('число:')    if number== '':        break    number = int(number)    list.append(number)for nol in list:    if nol==0:        list.remove(nol)        list.append(-1)print(list)

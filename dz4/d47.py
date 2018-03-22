@@ -1,0 +1,1 @@
+'''найти в строке символ.сделать их большими и удалить все с последнего его вхождения'''stroka=input('enter  stroka:')bykva=input('enter bykva:')posledn= stroka.rfind(bykva)for zamena in stroka:    if zamena==bykva:        stroka=stroka.replace(zamena, zamena.upper())print(stroka[:posledn])

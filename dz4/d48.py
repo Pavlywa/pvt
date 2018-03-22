@@ -1,0 +1,1 @@
+grades = [('Ann', 9), ('John', 7), ('Smith', 5), ('George', 6)]for skobki in range(len(grades)):    a = grades[skobki]    perevorot = (a[1], a[0])    grades[skobki] = perevorotgrades.sort()for otvet in grades:        print("Hello {}! Your grade is {}.".format(otvet[1], otvet[0]))
