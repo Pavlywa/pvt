@@ -1,0 +1,1 @@
+"""Дана целая матрица А(N,N). Составить программу подсчета среднего арифметического"""matrix = [[1, 9, 3],          [5, 8, 10],          [22, 30, 44]]a=matrix[0]b=matrix[1]c=matrix[2]d=a+b+bkolichestvo=len(d)summ=sum(d)print('среднее арифметическое=',summ/kolichestvo)

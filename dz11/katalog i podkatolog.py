@@ -1,0 +1,1 @@
+import osdef dir(directory):    for i in os.listdir(directory):        if os.path.isdir(directory + '/' + str(i)):            print(i)            dir(directory + '/' + str(i))        else:            print('__', i)    returndirectory = input('enter directory:')dir(directory)
